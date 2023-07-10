@@ -8,6 +8,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.primary-color {
+    color: #E55473;
+}
+
 .description-primary {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -22,6 +26,14 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
+    border: none;
+}
+
+.title-primary {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 /* banner */
@@ -52,4 +64,233 @@ body {
     width: 635px;
     height: 800px;
     margin-top: 50px;
+}
+
+/* main - featured section */
+
+.featured-desc {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 165px;
+}
+
+.featured-title {
+    margin-top: 178px;
+    margin-bottom: 24px;
+}
+
+.featured-flowers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 240px;
+    flex-shrink: 0;
+}
+
+.featured-flower-1 {
+    width: 310px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 20px 20px 0 20px;
+}
+
+.featured-flower-2 {
+    width: 370px;
+    height: 370px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 20px 20px 0 20px;
+    margin-top: 56px;
+}
+
+.featured-flower-3 {
+    width: 314px;
+    height: 471px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 20px 20px 0 20px;
+    margin-top: -50px;
+}
+
+.flower-items {
+    text-align: center;
+}
+
+/* service section */
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 240px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 5%;
+    gap: 10px;
+}
+
+.service-img {
+    width: 88px;
+    height: 88px;
+    margin-left: 130px;
+}
+
+.img-3 {
+    margin-right: 130px;
+}
+
+.service-desc {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+/* hot deal section */
+
+.hot-deal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 128px;
+    padding: 0 150px;
+    gap: -20px;
+}
+
+.hot-deal-img {
+    width: 318px;
+    height: 420px;
+    margin: 100px 0;
+}
+
+.hot-deal-desc {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.hot-deal-btn {
+    margin-left: 200px;
+}
+
+/* instagram section */
+
+.instagram-img-container {
+    display: flex;
+    margin: 0 240px;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 128px;
+}
+
+.insta-desc {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.insta-title {
+    margin-top: 128px;
+}
+
+/* latest deals section */
+.latest-deals-container {
+    background-image: url('../assets/Rectangle 9.png');
+    padding: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 8px;
+}
+
+.latest-deals-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: -70%;
+}
+
+.latest-deals-desc {
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 16px;
+}
+
+.latest-deals-input-email {
+    padding: 20px 250px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 150px;
+}
+
+.latest-deals-btn {
+    margin-right: 200px;
+}
+
+/* unique section */
+.unique-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 80px;
+    margin-bottom: 128px;
+}
+.unique-img-1{
+    /* height: 50%; */
+    width: 50%;
+}
+.unique-img-2{
+    /* height: 10%; */
+    width: 30%;
+}
+.unique-main-title{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.unique-desc{
+    border-left: 2px solid black;
+    font-weight: 400;
+    color: grey;
+    padding-left: 10px;
+    margin-top: 28px;
+    max-width: 500px;
+    text-align: justify;
+
+}
+/* footer section */
+.footer {
+    background-color: black;
+    padding: 150px;
+}
+.footer-title{
+    font-size: 48px;
+    font-weight: 800px;
+    color: white;
+    text-align: center;
+    /* margin-top: 128px; */
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
